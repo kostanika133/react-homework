@@ -1,0 +1,8 @@
+# Taste
+- Prefers guidance over done-for-him code: wants recommendations, explanations, and feedback on his own attempt rather than having the assistant write the implementation ("recommend me things but dont write code for me"). Confidence: 0.85
+- When working on learning exercises/homework, expects a teaching pass — problem breakdown, suggested structure/approach, and pitfalls — then to implement it himself and get review afterward. Confidence: 0.7
+- On coding exercises, is happy for the assistant to generate scaffolding (folder structure, component stubs, data files) but wants the actual logic/implementation left for him to write ("create files i need"). Confidence: 0.6
+- Works incrementally when learning: makes one small change, asks the assistant what comes next ("what is next?" / "so what do i do next?" / "next?"), and wants each step reviewed/confirmed before advancing rather than a full plan executed at once. Confidence: 0.75
+- Asks "what is X?" conceptual questions about terminology he encounters (e.g. "so what is controlled?") and wants the underlying mechanism explained in plain language, not just the code to write. Confidence: 0.6
+- Will sometimes explicitly ask for the complete, correct implementation ("can you fill everything with correct code? i will check it and than learn it") — he learns by reading a working reference and verifying it, so switching off guided mode on request is fine. Confidence: 0.6
+- After code is written for him, follows up asking for a full walkthrough of it ("can you explain what everything does?") — wants each file and element explained top to bottom (startup chain, state, props, events) as a teaching pass so he can internalize the finished reference. Confidence: 0.65
