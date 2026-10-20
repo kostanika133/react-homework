@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Shell(curl -s --max-time 25 \"http://universities.hipolabs.com/search?country=Georgia\")"
+    ],
+    "deny": [],
+    "defaultMode": "default"
+  }
+}

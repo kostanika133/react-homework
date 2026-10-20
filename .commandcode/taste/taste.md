@@ -1,0 +1,4 @@
+- Prefers reusing/modifying already existing files over creating new ones when building on a project. Confidence: 0.9
+- Prefers simple, student-level code — avoid over-engineering or unnecessary complexity; implement only what the assignment asks for. Confidence: 0.9
+- Prefers plain pixel (px) values in CSS and avoids "weird" relative units like rem. Confidence: 0.9
+- Wants thorough, step-by-step explanations of their code (what each part does, why it's written that way) in simple, student-friendly terms. Confidence: 0.8
