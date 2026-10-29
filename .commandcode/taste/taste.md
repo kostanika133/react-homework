@@ -1,4 +1,10 @@
 - Prefers reusing/modifying already existing files over creating new ones when building on a project. Confidence: 0.9
 - Prefers simple, student-level code — avoid over-engineering or unnecessary complexity; implement only what the assignment asks for. Confidence: 0.9
 - Prefers plain pixel (px) values in CSS and avoids "weird" relative units like rem. Confidence: 0.9
-- Wants thorough, step-by-step explanations of their code (what each part does, why it's written that way) in simple, student-friendly terms. Confidence: 0.8
+- Wants thorough, step-by-step explanations of their code and the underlying React/JS concepts they encounter (what each part does, why it works that way — e.g. event.target, controlled inputs, component state scoping) in simple, student-friendly terms; likes full end-to-end walkthroughs ("from start to bottom") with extra attention/emphasis on the harder concepts. Confidence: 0.9
+- Prefers to be guided/mentored (explanations, plans, choices) rather than having complete code written for them — wants to write the code themselves. Confidence: 0.9
+- Prefers to progress through multi-step tasks incrementally — one step at a time, in order, rather than getting everything at once. Confidence: 0.8
+- Has claimed familiarity with useState, useEffect, and react-router-dom, but their own code still shows beginner gaps (e.g. assigning `useParams` without calling it, `useEffect(() => fetch_uni, [country])` not invoking the function, missing `await` on `response.json()`), so don't assume mastery — be ready to catch and explain these mistakes. Confidence: 0.7
+- Likes to check in and have their code reviewed/checked for correctness before moving on to the next step (asks "is this right?" and expects a bug check). Confidence: 0.7
+- Prefers minimal, simple CSS — "very simple css, nothing much" — clean layout and basic colors rather than elaborate styling. Confidence: 0.7
+- Runs their browser in HTTPS-only mode, so HTTP API calls get blocked as mixed content; when debugging external API failures, consider this before changing code. Confidence: 0.8
